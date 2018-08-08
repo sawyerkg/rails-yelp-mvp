@@ -3,11 +3,13 @@
 one:
   name: MyString
   address: MyString
-  description: MyText
-  stars: 1
+  rating: 1
+  phone_number: 1
+  category: MyString
 
 two:
   name: MyString
   address: MyString
-  description: MyText
-  stars: 1
+  rating: 1
+  phone_number: 1
+  category: MyString
