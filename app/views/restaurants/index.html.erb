@@ -1,3 +1,6 @@
 <h1>hello</h1>
-<a href="/my_web_app/something/something_else/rob/6">click me</a>
-<%= link_to 'click me', great_route_path(6) %>
+
+<% @restaurants.each do |restaurant| %>
+<h1><%=restaurant.name %></h1>
+<%=link_to "click this shit hard", restaurant_path(restaurant) %>
+<% end %>
